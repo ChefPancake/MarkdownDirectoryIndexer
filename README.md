@@ -8,4 +8,4 @@ compatible with [Obsidian](https://obsidian.md/).
 
 ## Usage
 
-> .\Mindexer.exe -r "path to folder to index" -o "path to output file"
+> Mindexer -r "path to folder to index" -o "path to output file"
