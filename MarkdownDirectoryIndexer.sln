@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{D5AB9FE1-A9CD-41FE-9924-0BEA8E2F3F5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{D5AB9FE1-A9CD-41FE-9924-0BEA8E2F3F5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexer", "Indexer\Indexer.csproj", "{BF45E959-5F60-40D5-BDD4-F1EA09456FD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexer", "Indexer\Indexer.csproj", "{BF45E959-5F60-40D5-BDD4-F1EA09456FD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{EB0EBF0E-BAA7-4934-8CDA-57BDDD3D21F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{EB0EBF0E-BAA7-4934-8CDA-57BDDD3D21F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkdownWriter", "MarkdownWriter\MarkdownWriter.csproj", "{6A7437D4-1C0D-46B7-A5FD-230D20E0F17C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkdownWriter", "MarkdownWriter\MarkdownWriter.csproj", "{6A7437D4-1C0D-46B7-A5FD-230D20E0F17C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{7C1911C0-CE69-4515-B3DD-76DA55D7A1B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "Utilities\Utilities.csproj", "{7C1911C0-CE69-4515-B3DD-76DA55D7A1B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{C69124B4-605B-4C6C-83C1-53B32B7B710B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7C1911C0-CE69-4515-B3DD-76DA55D7A1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C1911C0-CE69-4515-B3DD-76DA55D7A1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C1911C0-CE69-4515-B3DD-76DA55D7A1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69124B4-605B-4C6C-83C1-53B32B7B710B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69124B4-605B-4C6C-83C1-53B32B7B710B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69124B4-605B-4C6C-83C1-53B32B7B710B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69124B4-605B-4C6C-83C1-53B32B7B710B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
