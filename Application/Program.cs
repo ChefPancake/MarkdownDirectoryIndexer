@@ -4,12 +4,13 @@ using MarkdownDirectoryIndexer;
 using MarkdownWriter;
 using Utilities;
 
-Parser parser= new Parser();
-ParserResult<ProgramOptions> result = parser.ParseArguments<ProgramOptions>(args)
-    .WithParsed(DoThing)
+Parser parser = new Parser();
+ParserResult<ProgramOptions> result = 
+    parser.ParseArguments<ProgramOptions>(args)
+    .WithParsed(WriteIndexToFile)
     .WithNotParsed(_ => WriteHelpText());
 
-static void DoThing(ProgramOptions options) {
+static void WriteIndexToFile(ProgramOptions options) {
     DirectoryIndexer indexer = new();
     MarkdownIndexWriter writer = new();
     if (options.RootDirectoryPath is not null && options.OutputFilePath is not null) {
